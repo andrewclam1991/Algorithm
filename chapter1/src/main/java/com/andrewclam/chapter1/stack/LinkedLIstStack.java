@@ -20,7 +20,7 @@ public class LinkedLIstStack<Item> implements Stack<Item>{
   private int n;
 
   /**
-   * Private nested class to define linkable node
+   * Private nested class to define a linkable node
    */
   private class Node{
     Item item;
@@ -32,7 +32,7 @@ public class LinkedLIstStack<Item> implements Stack<Item>{
    * @param item object of type {@link Item} to be pushed to the {@link LinkedLIstStack}
    */
   public void push(Item item){
-    // Stores a reference the current first item
+    // Stores a reference the current first Node
     Node oldFirst = first;
 
     // Creates a new Node to store the pushed item
@@ -41,6 +41,8 @@ public class LinkedLIstStack<Item> implements Stack<Item>{
 
     // New node now links the stored reference
     first.next = oldFirst;
+
+    // Increment item counter
     n++;
   }
 
@@ -49,10 +51,15 @@ public class LinkedLIstStack<Item> implements Stack<Item>{
    * @return the {@link Item} from the top.
    */
   public Item pop(){
-    // Remove item from the top of the stack
+    // Stores a reference to the current first Node's item
     Item item = first.item;
+
+    // Assign the next Node as the new first Node
     first = first.next;
+
+    // Decrement item counter
     n--;
+
     return item;
   }
 
