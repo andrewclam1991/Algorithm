@@ -1,6 +1,6 @@
 package com.andrewclam.algorithm;
 
-import com.andrewclam.chapter1.section1.exercise11.Parse2DBooleanArrayContent;
+import com.andrewclam.chapter1.section01.exercise11.Parse2DBooleanArrayContent;
 
 import org.junit.After;
 import org.junit.Before;

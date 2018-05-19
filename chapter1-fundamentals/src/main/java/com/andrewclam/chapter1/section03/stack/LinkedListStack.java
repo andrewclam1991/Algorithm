@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.section3.stack;
+package com.andrewclam.chapter1.section03.stack;
 
 /**
  * Example textbook generic linked-list implementation of a {@link Stack}

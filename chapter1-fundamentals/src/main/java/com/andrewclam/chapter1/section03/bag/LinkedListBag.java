@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.section3.bag;
+package com.andrewclam.chapter1.section03.bag;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.section1.exercise11;
+package com.andrewclam.chapter1.section01.exercise11;
 
 /**
  * Solution(s) of

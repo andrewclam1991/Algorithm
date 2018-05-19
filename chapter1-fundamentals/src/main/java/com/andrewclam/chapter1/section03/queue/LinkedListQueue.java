@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.section3.queue;
+package com.andrewclam.chapter1.section03.queue;
 
 import java.util.Iterator;
 

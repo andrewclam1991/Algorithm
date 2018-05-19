@@ -1,6 +1,4 @@
-package com.andrewclam.chapter1.section1.exercise11;
-
-import com.andrewclam.chapter1.section1.exercise11.Parse2DBooleanArrayContent;
+package com.andrewclam.chapter1.section01.exercise11;
 
 import org.junit.After;
 import org.junit.Before;
