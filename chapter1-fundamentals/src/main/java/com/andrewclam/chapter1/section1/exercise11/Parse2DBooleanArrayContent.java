@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.section1;
+package com.andrewclam.chapter1.section1.exercise11;
 
 /**
  * Solution(s) of
@@ -7,7 +7,7 @@ package com.andrewclam.chapter1.section1;
  * to represent {@code true} and a space to represent {@code false}. Include row
  * and column numbers.
  */
-public final class E11_Parse2DBooleanArrayContent {
+public final class Parse2DBooleanArrayContent {
 
   /**
    * @return exercise requirement, pretty print
@@ -46,6 +46,4 @@ public final class E11_Parse2DBooleanArrayContent {
     }
     return sb.toString();
   }
-
-
 }

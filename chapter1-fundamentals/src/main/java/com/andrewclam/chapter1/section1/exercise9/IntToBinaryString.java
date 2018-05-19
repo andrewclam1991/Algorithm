@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.section1;
+package com.andrewclam.chapter1.section1.exercise9;
 
 /**
  * Solution(s) of
@@ -6,7 +6,7 @@ package com.andrewclam.chapter1.section1;
  * Write a code fragment that puts the binary representation of a
  * positive integer n into a String s.
  */
-public final class E9_IntToBinaryString {
+public final class IntToBinaryString {
 
   /**
    * @param n positive integer
