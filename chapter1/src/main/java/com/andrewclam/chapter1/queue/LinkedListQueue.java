@@ -1,8 +1,6 @@
 package com.andrewclam.chapter1.queue;
 
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 /**
  * Example textbook generic linked-list implementation of a {@link Queue}
@@ -81,17 +79,6 @@ public class LinkedListQueue<Item> implements Queue<Item>, Iterable<Item>{
   @Override
   public Iterator<Item> iterator() {
     return new ListIterator();
-  }
-
-  @Override
-  public void forEach(Consumer<? super Item> consumer) {
-
-  }
-
-  // TODO implement this
-  @Override
-  public Spliterator<Item> spliterator() {
-    throw new UnsupportedOperationException("Not supported yet.");
   }
 
   /**
