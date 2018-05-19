@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.bag;
+package com.andrewclam.chapter1.section3.bag;
 
 /**
  * API for a {@link Bag}

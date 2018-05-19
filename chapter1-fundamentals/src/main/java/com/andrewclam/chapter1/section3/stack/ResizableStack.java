@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.stack;
+package com.andrewclam.chapter1.section3.stack;
 
 public class ResizableStack<Item> implements Stack<Item>{
   @Override

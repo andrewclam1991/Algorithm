@@ -1,4 +1,4 @@
-package com.andrewclam.chapter1.queue;
+package com.andrewclam.chapter1.section3.queue;
 
 /**
  * API for a FIFO {@link Queue}
