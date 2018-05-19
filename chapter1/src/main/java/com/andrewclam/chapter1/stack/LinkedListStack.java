@@ -1,13 +1,13 @@
 package com.andrewclam.chapter1.stack;
 
 /**
- * Example generic linked-list implementation of a {@link Stack}
+ * Example textbook generic linked-list implementation of a {@link Stack}
  * See Algorithm 1.2 page 149
  *
  * Implementation note:
- * This class expands allows null values
+ * This class expands, allows null items.
  */
-public class LinkedLIstStack<Item> implements Stack<Item>{
+public class LinkedListStack<Item> implements Stack<Item>{
   /**
    * References the first node, top of the stack
    * Note: On creation will be null
@@ -15,9 +15,9 @@ public class LinkedLIstStack<Item> implements Stack<Item>{
   private Node first = null;
 
   /**
-   * Keeps count of number of {@link Node}s within the LinkedLIstStack
+   * Keeps count of number of {@link Node}s within the LinkedListStack
    */
-  private int n;
+  private int n; //
 
   /**
    * Private nested class to define a linkable node
@@ -28,8 +28,8 @@ public class LinkedLIstStack<Item> implements Stack<Item>{
   }
 
   /**
-   * Implementation to push an {@link Item} onto the top of the {@link LinkedLIstStack}
-   * @param item object of type {@link Item} to be pushed to the {@link LinkedLIstStack}
+   * Implementation to push an {@link Item} onto the top of the {@link LinkedListStack}
+   * @param item object of type {@link Item} to be pushed to the {@link LinkedListStack}
    */
   public void push(Item item){
     // Stores a reference the current first Node
@@ -47,7 +47,7 @@ public class LinkedLIstStack<Item> implements Stack<Item>{
   }
 
   /**
-   * Implementation to pop the {@link Item} from the top of the {@link LinkedLIstStack}
+   * Implementation to pop the {@link Item} from the top of the {@link LinkedListStack}
    * @return the {@link Item} from the top.
    */
   public Item pop(){
@@ -64,12 +64,12 @@ public class LinkedLIstStack<Item> implements Stack<Item>{
   }
 
   /**
-   * @return whether the {@link LinkedLIstStack} is empty
+   * @return whether the {@link LinkedListStack} is empty
    */
   public boolean isEmpty(){ return n == 0 | first == null; }
 
   /**
-   * @return the current size of the {@link LinkedLIstStack}
+   * @return the current size of the {@link LinkedListStack}
    */
   public int size(){ return n; }
 }
