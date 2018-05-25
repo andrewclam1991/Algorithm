@@ -1,1 +1,1 @@
-include ':app', ':chapter1-fundamentals'
+include ':app', ':ch1fundamentals', ':ch3unionfind'

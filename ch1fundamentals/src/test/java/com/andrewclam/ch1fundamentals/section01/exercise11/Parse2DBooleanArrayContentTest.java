@@ -1,6 +1,4 @@
-package com.andrewclam.algorithm;
-
-import com.andrewclam.ch1fundamentals.section01.exercise11.Parse2DBooleanArrayContent;
+package com.andrewclam.ch1fundamentals.section01.exercise11;
 
 import org.junit.After;
 import org.junit.Before;
@@ -12,7 +10,7 @@ import java.util.Random;
  * Tests
  * {@link Parse2DBooleanArrayContent}
  */
-public class Ch1Section1Ex11Test {
+public class Parse2DBooleanArrayContentTest {
   private boolean[][] mTestArray1;
   private boolean[][] mTestArray2;
   private boolean[][] mRandomTestArray1;

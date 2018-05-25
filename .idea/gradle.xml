@@ -9,7 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/chapter1-fundamentals" />
+            <option value="$PROJECT_DIR$/ch1fundamentals" />
+            <option value="$PROJECT_DIR$/ch3unionfind" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
