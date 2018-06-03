@@ -65,7 +65,6 @@ public class LinkedListQueue<Item> implements Queue<Item>, Iterable<Item>{
     first = first.next;
     // Decrement queue size
     n--;
-    //
     if(isEmpty()) last = null;
     return item;
   }
