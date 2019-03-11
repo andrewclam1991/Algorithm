@@ -2,7 +2,7 @@ package com.andrewclam.ch1fundamentals.section03.stack;
 
 /**
  * Implements a {@link Stack} that expands and shrinks base on runtime
- * halves
+ * object sizes.
  * @param <V>
  */
 public class ResizableStack<V> implements Stack<V>{
